@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hi LOL or Notxx
+          Hi LOL or Well Wellss
         </a>
       </header>
     </div>
