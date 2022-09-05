@@ -12,5 +12,5 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `docker-compose up`
-- Runs the app in a container, publishes the project in [http://localhost:3000]
+- Runs the app in a container, publishes the project in [http://localhost:3000](http://localhost:3000)
 - When changes are made in the files inside the project, the running container reflects.
