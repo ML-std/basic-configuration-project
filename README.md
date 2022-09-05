@@ -2,6 +2,7 @@
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - Rather then focusing the frontend files, this project focuses configurations for CI/CD pipeline
+- This project needs `Docker` installer to be useful.
 
 ## Available Scripts
 
