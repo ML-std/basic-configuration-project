@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          hi
           Edit <code></code>Feature Brench
         </p>
         <a
@@ -14,7 +15,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        >hi
           Hi And Welcome to everybody
         </a>
       </header>
