@@ -8,3 +8,14 @@ before_install:
 
 script:
   - docker run -e CI=true barisege/basic-configuration-project npm run test
+  deploy:
+    provider: elasticbeanstalk
+    region: "us-east-1"
+    app: "basic-configuration-project"
+    env: "Basicconfigurationproject-env-1"
+    bucket_name: "elasticbeanstalk-us-east-1-737450418027"
+    bucket-path: "basic-configuration-project"
+    on:
+      branch: master
+  access_key_id: $AWS_ACCES_KEY
+  secret_acces_key: "$AWS_SECRET_KEY"
